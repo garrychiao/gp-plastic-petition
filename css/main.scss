@@ -1,0 +1,36 @@
+$primary-color: #eb9062;
+$secondary-color: #644837;
+
+html {
+    font-size: 16px;
+    // overflow: hidden;
+    section {
+        z-index: 0;
+        border: 1px solid black;
+        width: 100%;
+        height: 55vw;
+        padding: 0 15px;
+        .content-container {
+            height: 55vw;
+        }
+    }
+    #main {
+        .side {
+            color: #fff;
+            background-color: $primary-color;
+        }
+        .main-content {
+
+        }
+    }
+    .form-container {
+        z-index: 100;
+        border: 1px solid black;
+        background-color: #fff;
+        position: fixed;
+        width: 35vw;
+        height: 75vh;
+        bottom: 0;
+        left:0;
+    }
+}
